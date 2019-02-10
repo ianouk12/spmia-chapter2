@@ -1,6 +1,6 @@
-version: '2'
+version: '3'
 services:
   licensingservice:
-      image: johncarnell/tmx-licensing-service:chapter2
+      image: ianouk12/tmx-licensing-service:chapter2
       ports:
-        - "8080:8080"
+        - "9090:9090"
